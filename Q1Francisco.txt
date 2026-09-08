@@ -1,0 +1,26 @@
+using System;
+
+class TemperatureConverter
+{
+    static void main(string[] args, bool v)
+    {
+        TemperatureConverter converter = new TemperatureConverter();
+        Console.WriteLine("Celsius:  ");
+        double celcius = Convert.ToDouble (Console.ReadLine());
+
+        //Calculate
+        double fahrenheit = ((celcius * 9 / 5) + 32);
+        double kelvin = (celcius + 273.15);
+
+        v = celcius 
+            > 30 = true;
+        fahrenheit 
+            > 86 = true;
+        kelvin
+            > 300 = true;
+
+        Console.WriteLine("Celcius: " + v);
+        Console.WriteLine("Fahrenheit: " + v);
+        Console.WriteLine("Kelvin: " + v);
+    }
+}
