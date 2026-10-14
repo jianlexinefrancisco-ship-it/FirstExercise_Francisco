@@ -1,0 +1,28 @@
+namespace Week5_6Activity
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int[] numbers = {10, 20, 30, 40, 50 };
+            int answer = numbers[2];
+            label1.Text = answer.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
